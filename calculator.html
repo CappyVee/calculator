@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="  https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
     <title>Calculator</title>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+      <h1>Calculator</h1>
+      <form id="add">
+        <div class="form-group">
+          <label for="num1">1st number:</label>
+          <input id="num1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="num2">2nd number:</label>
+          <input id="num2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="result">Result</label>
+          <input type="text" id="result" class="form-control">
+        </div>
+        <button id="add-btn" class="btn btn-info">Add!</button>
+        <button id="subtract-btn" class="btn btn-success">Subtract!</button>
+        <button id="divide-btn" class="btn btn-danger">Divide!</button>
+        <button id="multiply-btn" class="btn btn-primary">Multiply!</button>
+
+      </form>
+
+
+    </div>
   </body>
 </html>
